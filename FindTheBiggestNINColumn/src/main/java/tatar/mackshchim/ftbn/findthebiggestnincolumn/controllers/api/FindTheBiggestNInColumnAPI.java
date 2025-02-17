@@ -23,7 +23,7 @@ public interface FindTheBiggestNInColumnAPI {
 
     @Operation(summary = "Finding Nth biggest number of XLSX file column")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Current User ID, Interlocutor ID, messages",
+            @ApiResponse(responseCode = "200", description = "Double format the biggest Nth number",
                     content = {
                             @Content(mediaType = "application/json", schema = @Schema(implementation = Double.class))
                     }),
